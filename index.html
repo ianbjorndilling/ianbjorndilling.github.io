@@ -1,1 +1,10 @@
-Ian Dilling
+---
+layout: default
+title: Ian Dilling
+---
+
+Hello World
+{{site.github.owner_name}}
+{% for repo in site.github.public_repositories %}
+<div>{{ repo.name }}</div>
+{% endfor %}
